@@ -166,3 +166,7 @@ select * from members ORDER BY date_of_birth;
 --bonus--
 --ex1--
 select m.first_name, m.last_name,t.first_name, t.last_name from appointments a join members m on a.member_id = m.member_id join trainers t on a.trainer_id = t.trainer_id;
+
+
+
+
